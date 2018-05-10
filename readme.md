@@ -16,9 +16,9 @@ If you use oh-my-zsh you can do...
 
 ```bash
 # using CURL
-curl -L https://github.com/elboletaire/zsh-theme-racotecnic/raw/master/racotecnic.zsh-theme > ~/.oh-my-zsh/themes/racotecnic.zsh-theme
+curl -L https://github.com/dhohengassner/zsh-theme-racotecnic/raw/master/racotecnic.zsh-theme > ~/.oh-my-zsh/themes/racotecnic.zsh-theme
 # using wget
-wget --no-check-certificate -O ~/.oh-my-zsh/themes/racotecnic.zsh-theme https://github.com/elboletaire/zsh-theme-racotecnic/raw/master/racotecnic.zsh-theme
+wget --no-check-certificate -O ~/.oh-my-zsh/themes/racotecnic.zsh-theme https://github.com/dhohengassner/zsh-theme-racotecnic/raw/master/racotecnic.zsh-theme
 ```
 
 After that simply change the `ZSH_THEME` value to `racotecnic`:
@@ -30,7 +30,7 @@ ZSH_THEME="racotecnic"
 
 ## zgen
 
-If you're using [zgen](https://github.com/tarjoilija/zgen), you can add `zgen load elboletaire/zsh-theme-racotecnic` to your zgen load list and regenerate init.zsh with `zgen save`. Zgen will take care of cloning the repository for you automatically.
+If you're using [zgen](https://github.com/tarjoilija/zgen), you can add `zgen load dhohengassner/zsh-theme-racotecnic` to your zgen load list and regenerate init.zsh with `zgen save`. Zgen will take care of cloning the repository for you automatically.
 
 The Prompt
 ----------

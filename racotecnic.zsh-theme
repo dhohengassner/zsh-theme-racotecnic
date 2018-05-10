@@ -111,7 +111,7 @@ eval rt_lightgreen='$FG[002]'
 # primary prompt
 PROMPT='$FG[237]---------------------------------------------------------------------%{$reset_color%}
 $FG[032]%~\
-$(my_git_coloring_prompt_info)$(git_prompt_info)$(my_git_prompt_status) \
+$(my_git_coloring_prompt_info)$(git_prompt_info)$(my_git_prompt_status)
 $FG[105]%(!.#.»)%{$reset_color%} '
 PROMPT2='%{$fg[red]%}\ %{$reset_color%}'
 RPS1='${return_code}'
